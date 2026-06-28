@@ -1,0 +1,9 @@
+prompts/
+temp/
+*.csv
+*.xlsx
+*.xls
+__pycache__/
+node_modules/
+.github
+data/
