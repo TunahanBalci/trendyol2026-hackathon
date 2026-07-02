@@ -1,0 +1,1 @@
+{"nodes": [{"id": "skill_improve_model", "label": "Model improvement skill", "type": "skill", "source_file": "skills/improve-model.md", "confidence": "EXTRACTED"}], "edges": [{"source": "skill_improve_model", "target": "ml_method_hybrid_lgbm", "relation": "guides", "source_file": "skills/improve-model.md", "confidence": "EXTRACTED", "confidence_score": 1.0}], "hyperedges": []}

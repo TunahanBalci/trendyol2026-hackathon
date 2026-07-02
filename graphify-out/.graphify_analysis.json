@@ -1,0 +1,324 @@
+{
+  "communities": {
+    "0": [
+      "path",
+      "src_trendyol_mlop_build_features",
+      "src_trendyol_mlop_build_features_run",
+      "src_trendyol_mlop_common",
+      "src_trendyol_mlop_common_ensure_parent",
+      "src_trendyol_mlop_common_leaf_category",
+      "src_trendyol_mlop_common_py_any",
+      "src_trendyol_mlop_common_py_dataframe",
+      "src_trendyol_mlop_common_read_params",
+      "src_trendyol_mlop_common_read_table",
+      "src_trendyol_mlop_common_top_category",
+      "src_trendyol_mlop_common_write_json",
+      "src_trendyol_mlop_common_write_table",
+      "src_trendyol_mlop_fit_text_stats",
+      "src_trendyol_mlop_fit_text_stats_fit_text_stats",
+      "src_trendyol_mlop_log_leaderboard",
+      "src_trendyol_mlop_log_leaderboard_log_leaderboard",
+      "src_trendyol_mlop_predict",
+      "src_trendyol_mlop_predict_predict",
+      "src_trendyol_mlop_prepare_catalog",
+      "src_trendyol_mlop_prepare_catalog_prepare_catalog",
+      "src_trendyol_mlop_validate_dataset",
+      "src_trendyol_mlop_validate_dataset_parse_args",
+      "src_trendyol_mlop_validate_dataset_py_namespace",
+      "src_trendyol_mlop_validate_dataset_validate_dataset",
+      "src_trendyol_mlop_validate_submission",
+      "src_trendyol_mlop_validate_submission_validate_submission"
+    ],
+    "1": [
+      "defaultdict",
+      "src_trendyol_mlop_common_normalize_text",
+      "src_trendyol_mlop_features",
+      "src_trendyol_mlop_features_bm25_score",
+      "src_trendyol_mlop_features_build_features",
+      "src_trendyol_mlop_features_category_parts",
+      "src_trendyol_mlop_features_char_ngrams",
+      "src_trendyol_mlop_features_color_set",
+      "src_trendyol_mlop_features_idf_overlap",
+      "src_trendyol_mlop_features_jaccard",
+      "src_trendyol_mlop_features_material_set",
+      "src_trendyol_mlop_features_py_any",
+      "src_trendyol_mlop_features_py_dataframe",
+      "src_trendyol_mlop_features_query_gender",
+      "src_trendyol_mlop_features_size_set",
+      "src_trendyol_mlop_features_token_set",
+      "src_trendyol_mlop_features_tokens",
+      "src_trendyol_mlop_make_dataset",
+      "src_trendyol_mlop_make_dataset_append_negative",
+      "src_trendyol_mlop_make_dataset_build_tfidf_candidates",
+      "src_trendyol_mlop_make_dataset_make_dataset",
+      "src_trendyol_mlop_make_dataset_parse_args",
+      "src_trendyol_mlop_make_dataset_py_dataframe",
+      "src_trendyol_mlop_make_dataset_py_namespace",
+      "src_trendyol_mlop_make_dataset_py_ndarray",
+      "src_trendyol_mlop_make_dataset_sample_not_positive"
+    ],
+    "2": [
+      "artifact_lgbm_model",
+      "artifact_metrics",
+      "artifact_submission",
+      "artifact_submission_report",
+      "competition_public_private_lb",
+      "macro_f1_threshold_calibration",
+      "ml_method_hybrid_lgbm",
+      "ml_method_transformer_optional",
+      "readme_fast_loop",
+      "skill_improve_model",
+      "skill_new_model",
+      "skill_save_chat",
+      "stage_predict",
+      "stage_train",
+      "train_final_on_all",
+      "validation_term_item_random"
+    ],
+    "3": [
+      "src_trendyol_mlop_train",
+      "src_trendyol_mlop_train_best_threshold",
+      "src_trendyol_mlop_train_evaluate_split",
+      "src_trendyol_mlop_train_log_mlflow",
+      "src_trendyol_mlop_train_make_model",
+      "src_trendyol_mlop_train_parse_args",
+      "src_trendyol_mlop_train_py_namespace",
+      "src_trendyol_mlop_train_py_ndarray",
+      "src_trendyol_mlop_train_split_indices",
+      "src_trendyol_mlop_train_train",
+      "src_trendyol_mlop_train_write_feature_importance",
+      "src_trendyol_mlop_tune_lgbm",
+      "src_trendyol_mlop_tune_lgbm_parse_args",
+      "src_trendyol_mlop_tune_lgbm_py_namespace",
+      "src_trendyol_mlop_tune_lgbm_tune"
+    ],
+    "4": [
+      "artifact_dataset_report",
+      "artifact_text_stats",
+      "artifact_train_features",
+      "artifact_train_pairs_synth",
+      "competition_positive_only_train",
+      "negative_category",
+      "negative_contradiction",
+      "negative_hard_tfidf",
+      "negative_random",
+      "negative_sampling_strategy",
+      "stage_build_features",
+      "stage_fit_text_stats",
+      "stage_make_dataset",
+      "stage_validate_dataset"
+    ],
+    "5": [
+      "artifact_items_min",
+      "artifact_terms",
+      "competition_items_scale_rule",
+      "competition_target_score",
+      "docker_mlflow_service",
+      "docker_pipeline_service",
+      "mlflow_tracking_uri",
+      "mlops_pipeline",
+      "readme_tracked_outputs",
+      "requirements_ml_stack",
+      "stage_prepare_catalog"
+    ],
+    "6": [
+      "src_trendyol_mlop_build_features_parse_args",
+      "src_trendyol_mlop_build_features_py_namespace"
+    ],
+    "7": [
+      "src_trendyol_mlop_fit_text_stats_parse_args",
+      "src_trendyol_mlop_fit_text_stats_py_namespace"
+    ],
+    "8": [
+      "src_trendyol_mlop_init",
+      "src_trendyol_mlop_init_rationale_1"
+    ],
+    "9": [
+      "src_trendyol_mlop_log_leaderboard_parse_args",
+      "src_trendyol_mlop_log_leaderboard_py_namespace"
+    ],
+    "10": [
+      "src_trendyol_mlop_predict_parse_args",
+      "src_trendyol_mlop_predict_py_namespace"
+    ],
+    "11": [
+      "src_trendyol_mlop_prepare_catalog_parse_args",
+      "src_trendyol_mlop_prepare_catalog_py_namespace"
+    ],
+    "12": [
+      "src_trendyol_mlop_validate_submission_parse_args",
+      "src_trendyol_mlop_validate_submission_py_namespace"
+    ],
+    "13": [
+      "src_init"
+    ]
+  },
+  "cohesion_scores": {
+    "0": 0.23646723646723647,
+    "1": 0.20615384615384616,
+    "2": 0.13333333333333333,
+    "3": 0.26666666666666666,
+    "4": 0.2087912087912088,
+    "5": 0.18181818181818182,
+    "6": 1.0,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0
+  },
+  "community_labels": {
+    "0": "read_params",
+    "1": "features.py",
+    "2": "Training and Validation",
+    "3": "train.py",
+    "4": "Synthetic Negative Sampling",
+    "5": "MLOps Pipeline",
+    "6": "parse_args",
+    "7": "parse_args",
+    "8": "__init__.py",
+    "9": "parse_args",
+    "10": "parse_args",
+    "11": "parse_args",
+    "12": "parse_args",
+    "13": "__init__.py"
+  },
+  "god_nodes": [
+    {
+      "id": "src_trendyol_mlop_common_read_params",
+      "label": "read_params()",
+      "degree": 23
+    },
+    {
+      "id": "src_trendyol_mlop_common_read_table",
+      "label": "read_table()",
+      "degree": 18
+    },
+    {
+      "id": "src_trendyol_mlop_features_build_features",
+      "label": "build_features()",
+      "degree": 18
+    },
+    {
+      "id": "src_trendyol_mlop_common_write_json",
+      "label": "write_json()",
+      "degree": 14
+    },
+    {
+      "id": "src_trendyol_mlop_make_dataset_make_dataset",
+      "label": "make_dataset()",
+      "degree": 14
+    },
+    {
+      "id": "src_trendyol_mlop_common_ensure_parent",
+      "label": "ensure_parent()",
+      "degree": 13
+    },
+    {
+      "id": "src_trendyol_mlop_common_write_table",
+      "label": "write_table()",
+      "degree": 10
+    },
+    {
+      "id": "src_trendyol_mlop_common_normalize_text",
+      "label": "normalize_text()",
+      "degree": 10
+    },
+    {
+      "id": "src_trendyol_mlop_train_train",
+      "label": "train()",
+      "degree": 10
+    },
+    {
+      "id": "src_trendyol_mlop_features_token_set",
+      "label": "token_set()",
+      "degree": 9
+    }
+  ],
+  "surprising_connections": [
+    {
+      "source": "Public/private leaderboard risk",
+      "target": "Final model retrains on all synthetic pairs",
+      "source_files": [
+        "AGENTS.md",
+        "params.yaml"
+      ],
+      "confidence": "INFERRED",
+      "relation": "tradeoff_after_validation",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "Target score >=0.91 public with private stability",
+      "target": "MLflow + DVC MLOps pipeline",
+      "source_files": [
+        "AGENTS.md",
+        "README_MLOPS.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "drives",
+      "why": "connects across different repos/directories; peripheral node `Target score >=0.91 public with private stability` unexpectedly reaches hub `MLflow + DVC MLOps pipeline`"
+    },
+    {
+      "source": "Positive-only incomplete training pairs",
+      "target": "Tiered synthetic negative sampling strategy",
+      "source_files": [
+        "AGENTS.md",
+        "history/20260628-161116-data-creation-plan.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "requires",
+      "why": "connects across different repos/directories; peripheral node `Positive-only incomplete training pairs` unexpectedly reaches hub `Tiered synthetic negative sampling strategy`"
+    },
+    {
+      "source": "items.csv large-file sampling rule",
+      "target": "DVC stage prepare_catalog",
+      "source_files": [
+        "AGENTS.md",
+        "dvc.yaml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "constrains",
+      "why": "connects across different repos/directories; peripheral node `items.csv large-file sampling rule` unexpectedly reaches hub `DVC stage prepare_catalog`"
+    },
+    {
+      "source": "Docker Compose MLflow service",
+      "target": "MLflow + DVC MLOps pipeline",
+      "source_files": [
+        "docker-compose.yml",
+        "README_MLOPS.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "hosts_tracking_for",
+      "why": "connects across different repos/directories; peripheral node `Docker Compose MLflow service` unexpectedly reaches hub `MLflow + DVC MLOps pipeline`"
+    }
+  ],
+  "suggested_questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `read_params()` connect `read_params` to `features.py`, `train.py`?",
+      "why": "High betweenness centrality (0.090) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `read_table()` connect `read_params` to `features.py`, `train.py`?",
+      "why": "High betweenness centrality (0.045) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `DVC stage train` connect `Training and Validation` to `Synthetic Negative Sampling`?",
+      "why": "High betweenness centrality (0.041) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Trendyol relevance MLOps pipeline.`, `Target score >=0.91 public with private stability`, `Positive-only incomplete training pairs` to the rest of the system?",
+      "why": "19 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Training and Validation` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected."
+    }
+  ]
+}

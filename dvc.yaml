@@ -1,0 +1,103 @@
+stages:
+  prepare_catalog:
+    cmd: python -m src.trendyol_mlop.prepare_catalog --params params.yaml
+    deps:
+      - data/items.csv
+      - data/terms.csv
+      - src/trendyol_mlop/prepare_catalog.py
+      - src/trendyol_mlop/common.py
+    params:
+      - data
+    outs:
+      - data/interim/items_min.parquet
+      - data/interim/terms.parquet
+
+  make_dataset:
+    cmd: python -m src.trendyol_mlop.make_dataset --params params.yaml
+    deps:
+      - data/interim/items_min.parquet
+      - data/interim/terms.parquet
+      - data/training_pairs.csv
+      - src/trendyol_mlop/make_dataset.py
+      - src/trendyol_mlop/common.py
+    params:
+      - seed
+      - dataset
+    outs:
+      - data/processed/train_pairs_synth.parquet
+
+  validate_dataset:
+    cmd: python -m src.trendyol_mlop.validate_dataset --params params.yaml
+    deps:
+      - data/processed/train_pairs_synth.parquet
+      - src/trendyol_mlop/validate_dataset.py
+      - src/trendyol_mlop/common.py
+    params:
+      - dataset
+    metrics:
+      - reports/dataset_report.json:
+          cache: false
+
+  fit_text_stats:
+    cmd: python -m src.trendyol_mlop.fit_text_stats --params params.yaml
+    deps:
+      - data/interim/items_min.parquet
+      - src/trendyol_mlop/fit_text_stats.py
+      - src/trendyol_mlop/features.py
+      - src/trendyol_mlop/common.py
+    params:
+      - features
+    outs:
+      - data/interim/text_stats.joblib
+
+  build_features:
+    cmd: python -m src.trendyol_mlop.build_features --params params.yaml
+    deps:
+      - data/processed/train_pairs_synth.parquet
+      - reports/dataset_report.json
+      - data/interim/text_stats.joblib
+      - src/trendyol_mlop/build_features.py
+      - src/trendyol_mlop/features.py
+      - src/trendyol_mlop/common.py
+    params:
+      - features
+    outs:
+      - data/processed/train_features.parquet
+
+  train:
+    cmd: python -m src.trendyol_mlop.train --params params.yaml
+    deps:
+      - data/processed/train_features.parquet
+      - src/trendyol_mlop/train.py
+      - src/trendyol_mlop/common.py
+    params:
+      - seed
+      - train
+    outs:
+      - models/lgbm_relevance.joblib
+      - reports/feature_importance.csv
+    metrics:
+      - reports/metrics.json:
+          cache: false
+
+  predict:
+    cmd: python -m src.trendyol_mlop.predict --params params.yaml
+    deps:
+      - data/interim/items_min.parquet
+      - data/interim/terms.parquet
+      - data/interim/text_stats.joblib
+      - data/submission_pairs.csv
+      - models/lgbm_relevance.joblib
+      - src/trendyol_mlop/predict.py
+      - src/trendyol_mlop/validate_submission.py
+      - src/trendyol_mlop/features.py
+      - src/trendyol_mlop/common.py
+    params:
+      - predict
+    outs:
+      - submissions/submission.csv
+    metrics:
+      - reports/prediction_score_report.json:
+          cache: false
+      - reports/submission_report.json:
+          cache: false

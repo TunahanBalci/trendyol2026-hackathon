@@ -1,0 +1,1 @@
+{"nodes": [{"id": "skill_new_model", "label": "New model skill", "type": "skill", "source_file": "skills/new-model.md", "confidence": "EXTRACTED"}], "edges": [{"source": "skill_new_model", "target": "ml_method_transformer_optional", "relation": "guides", "source_file": "skills/new-model.md", "confidence": "EXTRACTED", "confidence_score": 1.0}], "hyperedges": []}

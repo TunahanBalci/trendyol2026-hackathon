@@ -1,0 +1,15 @@
+.git
+.dvc/cache
+.dvc/tmp
+data
+mlruns
+models
+reports
+submissions
+artifacts
+__pycache__
+*.pyc
+*.csv
+*.parquet
+*.joblib
+mlflow.db

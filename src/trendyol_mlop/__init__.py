@@ -1,0 +1,1 @@
+"""Trendyol relevance MLOps pipeline."""

@@ -1,0 +1,64 @@
+seed: 42
+
+data:
+  raw_dir: data
+  interim_dir: data/interim
+  processed_dir: data/processed
+  catalog_path: data/interim/items_min.parquet
+  terms_path: data/interim/terms.parquet
+  train_pairs_path: data/training_pairs.csv
+  submission_pairs_path: data/submission_pairs.csv
+  sample_submission_path: data/sample_submission.csv
+
+dataset:
+  # Set null for full training. Use small values for smoke tests.
+  max_positives:
+  max_items_sample: 200000
+  random_negatives_per_positive: 2
+  same_top_negatives_per_positive: 2
+  same_leaf_negatives_per_positive: 1
+  contradiction_negatives_per_positive: 1
+  tfidf_negatives_per_positive: 2
+  tfidf_top_k: 30
+  tfidf_max_features: 200000
+  tfidf_batch_size: 512
+  output_path: data/processed/train_pairs_synth.parquet
+  report_path: reports/dataset_report.json
+  min_positive_rows: 100
+  min_negative_per_positive: 3.0
+
+features:
+  train_output_path: data/processed/train_features.parquet
+  text_stats_path: data/interim/text_stats.joblib
+  max_vocab: 300000
+  min_df: 2
+
+train:
+  model_path: models/lgbm_relevance.joblib
+  metrics_path: reports/metrics.json
+  feature_importance_path: reports/feature_importance.csv
+  test_size: 0.2
+  threshold_grid_size: 101
+  validation_splits:
+    - term
+    - item
+    - random
+  primary_split: term
+  train_final_on_all: true
+  model:
+    n_estimators: 800
+    learning_rate: 0.04
+    num_leaves: 63
+    subsample: 0.85
+    colsample_bytree: 0.85
+    min_child_samples: 40
+    reg_lambda: 1.0
+
+tune:
+  trials: 30
+  output_path: reports/optuna_best.json
+
+predict:
+  output_path: submissions/submission.csv
+  score_report_path: reports/prediction_score_report.json
+  chunksize: 200000

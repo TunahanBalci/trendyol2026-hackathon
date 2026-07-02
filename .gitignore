@@ -7,3 +7,10 @@ __pycache__/
 node_modules/
 .github
 data/
+mlruns/
+mlflow.db
+models/
+reports/
+submissions/
+artifacts/
+.dvc/cache/

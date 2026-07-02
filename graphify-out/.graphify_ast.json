@@ -1,0 +1,3605 @@
+{
+  "nodes": [
+    {
+      "id": "src_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_init_rationale_1",
+      "label": "Trendyol relevance MLOps pipeline.",
+      "file_type": "rationale",
+      "source_file": "src/trendyol_mlop/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_build_features",
+      "label": "build_features.py",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_build_features_run",
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_build_features_parse_args",
+      "label": "parse_args()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L21",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_build_features_py_namespace",
+      "label": "Namespace",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_common",
+      "label": "common.py",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_common_read_params",
+      "label": "read_params()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_common_py_any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_common_ensure_parent",
+      "label": "ensure_parent()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_common_read_table",
+      "label": "read_table()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_common_py_dataframe",
+      "label": "DataFrame",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_common_write_table",
+      "label": "write_table()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_common_write_json",
+      "label": "write_json()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L37",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_common_normalize_text",
+      "label": "normalize_text()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L43",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_common_top_category",
+      "label": "top_category()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L49",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_common_leaf_category",
+      "label": "leaf_category()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L54",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_features",
+      "label": "features.py",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_features_tokens",
+      "label": "tokens()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L70",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_features_py_any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_features_token_set",
+      "label": "token_set()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L74",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_features_char_ngrams",
+      "label": "char_ngrams()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L78",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_features_jaccard",
+      "label": "jaccard()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L85",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_features_query_gender",
+      "label": "query_gender()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L91",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_features_color_set",
+      "label": "color_set()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L99",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_features_material_set",
+      "label": "material_set()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L103",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_features_size_set",
+      "label": "size_set()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L107",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_features_category_parts",
+      "label": "category_parts()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L111",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_features_bm25_score",
+      "label": "bm25_score()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L115",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_features_idf_overlap",
+      "label": "idf_overlap()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L132",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_features_build_features",
+      "label": "build_features()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L141",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_features_py_dataframe",
+      "label": "DataFrame",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_fit_text_stats",
+      "label": "fit_text_stats.py",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_fit_text_stats_fit_text_stats",
+      "label": "fit_text_stats()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_fit_text_stats_parse_args",
+      "label": "parse_args()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L48",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_fit_text_stats_py_namespace",
+      "label": "Namespace",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_log_leaderboard",
+      "label": "log_leaderboard.py",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/log_leaderboard.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_log_leaderboard_log_leaderboard",
+      "label": "log_leaderboard()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/log_leaderboard.py",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_log_leaderboard_parse_args",
+      "label": "parse_args()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/log_leaderboard.py",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_log_leaderboard_py_namespace",
+      "label": "Namespace",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_make_dataset",
+      "label": "make_dataset.py",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_make_dataset_sample_not_positive",
+      "label": "_sample_not_positive()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_make_dataset_py_ndarray",
+      "label": "ndarray",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_make_dataset_append_negative",
+      "label": "_append_negative()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L32",
+      "_origin": "ast"
+    },
+    {
+      "id": "defaultdict",
+      "label": "defaultdict",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_make_dataset_build_tfidf_candidates",
+      "label": "_build_tfidf_candidates()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L51",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_make_dataset_py_dataframe",
+      "label": "DataFrame",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_make_dataset_make_dataset",
+      "label": "make_dataset()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L83",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_make_dataset_parse_args",
+      "label": "parse_args()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L252",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_make_dataset_py_namespace",
+      "label": "Namespace",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_predict",
+      "label": "predict.py",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_predict_predict",
+      "label": "predict()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_predict_parse_args",
+      "label": "parse_args()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L63",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_predict_py_namespace",
+      "label": "Namespace",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_prepare_catalog",
+      "label": "prepare_catalog.py",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_prepare_catalog_prepare_catalog",
+      "label": "prepare_catalog()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_prepare_catalog_parse_args",
+      "label": "parse_args()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L67",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_prepare_catalog_py_namespace",
+      "label": "Namespace",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_train",
+      "label": "train.py",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_train_make_model",
+      "label": "_make_model()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_train_best_threshold",
+      "label": "_best_threshold()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L40",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_train_py_ndarray",
+      "label": "ndarray",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_train_log_mlflow",
+      "label": "_log_mlflow()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L52",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_train_split_indices",
+      "label": "_split_indices()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L79",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_train_evaluate_split",
+      "label": "_evaluate_split()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L94",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_train_write_feature_importance",
+      "label": "_write_feature_importance()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L150",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_train_train",
+      "label": "train()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L161",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_train_parse_args",
+      "label": "parse_args()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L207",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_train_py_namespace",
+      "label": "Namespace",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_tune_lgbm",
+      "label": "tune_lgbm.py",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_tune_lgbm_tune",
+      "label": "tune()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_tune_lgbm_parse_args",
+      "label": "parse_args()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L68",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_tune_lgbm_py_namespace",
+      "label": "Namespace",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_validate_dataset",
+      "label": "validate_dataset.py",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/validate_dataset.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_validate_dataset_validate_dataset",
+      "label": "validate_dataset()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/validate_dataset.py",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_validate_dataset_parse_args",
+      "label": "parse_args()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/validate_dataset.py",
+      "source_location": "L89",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_validate_dataset_py_namespace",
+      "label": "Namespace",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_validate_submission",
+      "label": "validate_submission.py",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/validate_submission.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_validate_submission_validate_submission",
+      "label": "validate_submission()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/validate_submission.py",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_validate_submission_parse_args",
+      "label": "parse_args()",
+      "file_type": "code",
+      "source_file": "src/trendyol_mlop/validate_submission.py",
+      "source_location": "L43",
+      "_origin": "ast"
+    },
+    {
+      "id": "src_trendyol_mlop_validate_submission_py_namespace",
+      "label": "Namespace",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "src_trendyol_mlop_init_rationale_1",
+      "target": "src_trendyol_mlop_init",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_build_features",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_build_features",
+      "target": "joblib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_build_features",
+      "target": "src_trendyol_mlop_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_build_features",
+      "target": "src_trendyol_mlop_features",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_build_features",
+      "target": "src_trendyol_mlop_build_features_run",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_build_features",
+      "target": "src_trendyol_mlop_build_features_parse_args",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_build_features_parse_args",
+      "target": "src_trendyol_mlop_build_features_py_namespace",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common",
+      "target": "yaml",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_read_params",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_read_params",
+      "target": "src_trendyol_mlop_common_py_any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common",
+      "target": "src_trendyol_mlop_common_ensure_parent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_ensure_parent",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_ensure_parent",
+      "target": "path",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common",
+      "target": "src_trendyol_mlop_common_read_table",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_read_table",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_read_table",
+      "target": "src_trendyol_mlop_common_py_any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_read_table",
+      "target": "src_trendyol_mlop_common_py_dataframe",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common",
+      "target": "src_trendyol_mlop_common_write_table",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_write_table",
+      "target": "src_trendyol_mlop_common_py_dataframe",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_write_table",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common",
+      "target": "src_trendyol_mlop_common_write_json",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_write_json",
+      "target": "src_trendyol_mlop_common_py_any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_write_json",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common",
+      "target": "src_trendyol_mlop_common_normalize_text",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_normalize_text",
+      "target": "src_trendyol_mlop_common_py_any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common",
+      "target": "src_trendyol_mlop_common_top_category",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_top_category",
+      "target": "src_trendyol_mlop_common_py_any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common",
+      "target": "src_trendyol_mlop_common_leaf_category",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_leaf_category",
+      "target": "src_trendyol_mlop_common_py_any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_ensure_parent",
+      "target": "path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_read_table",
+      "target": "path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_write_table",
+      "target": "src_trendyol_mlop_common_ensure_parent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_write_json",
+      "target": "src_trendyol_mlop_common_ensure_parent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_top_category",
+      "target": "src_trendyol_mlop_common_normalize_text",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_common_leaf_category",
+      "target": "src_trendyol_mlop_common_normalize_text",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/common.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "collections",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "src_trendyol_mlop_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "src_trendyol_mlop_features_tokens",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_tokens",
+      "target": "src_trendyol_mlop_features_py_any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "src_trendyol_mlop_features_token_set",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_token_set",
+      "target": "src_trendyol_mlop_features_py_any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "src_trendyol_mlop_features_char_ngrams",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_char_ngrams",
+      "target": "src_trendyol_mlop_features_py_any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "src_trendyol_mlop_features_jaccard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "src_trendyol_mlop_features_query_gender",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_query_gender",
+      "target": "src_trendyol_mlop_features_py_any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "src_trendyol_mlop_features_color_set",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_color_set",
+      "target": "src_trendyol_mlop_features_py_any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "src_trendyol_mlop_features_material_set",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_material_set",
+      "target": "src_trendyol_mlop_features_py_any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "src_trendyol_mlop_features_size_set",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_size_set",
+      "target": "src_trendyol_mlop_features_py_any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "src_trendyol_mlop_features_category_parts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_category_parts",
+      "target": "src_trendyol_mlop_features_py_any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "src_trendyol_mlop_features_bm25_score",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "src_trendyol_mlop_features_idf_overlap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "src_trendyol_mlop_features_build_features",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_build_features",
+      "target": "src_trendyol_mlop_features_py_dataframe",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_build_features",
+      "target": "src_trendyol_mlop_features_py_dataframe",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_token_set",
+      "target": "src_trendyol_mlop_features_tokens",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_query_gender",
+      "target": "src_trendyol_mlop_features_token_set",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_color_set",
+      "target": "src_trendyol_mlop_features_token_set",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_material_set",
+      "target": "src_trendyol_mlop_features_token_set",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_build_features",
+      "target": "src_trendyol_mlop_features_token_set",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_build_features",
+      "target": "src_trendyol_mlop_features_tokens",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_build_features",
+      "target": "src_trendyol_mlop_features_char_ngrams",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_build_features",
+      "target": "src_trendyol_mlop_features_query_gender",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_build_features",
+      "target": "src_trendyol_mlop_features_color_set",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_build_features",
+      "target": "src_trendyol_mlop_features_material_set",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_build_features",
+      "target": "src_trendyol_mlop_features_size_set",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_build_features",
+      "target": "src_trendyol_mlop_features_category_parts",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L175",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_build_features",
+      "target": "src_trendyol_mlop_features_idf_overlap",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_build_features",
+      "target": "src_trendyol_mlop_features_jaccard",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_build_features",
+      "target": "src_trendyol_mlop_features_bm25_score",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L211",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_build_features",
+      "target": "src_trendyol_mlop_features_py_dataframe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats",
+      "target": "collections",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats",
+      "target": "joblib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats",
+      "target": "tqdm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats",
+      "target": "src_trendyol_mlop_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats",
+      "target": "src_trendyol_mlop_features",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats",
+      "target": "src_trendyol_mlop_fit_text_stats_fit_text_stats",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats",
+      "target": "src_trendyol_mlop_fit_text_stats_parse_args",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats_parse_args",
+      "target": "src_trendyol_mlop_fit_text_stats_py_namespace",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_log_leaderboard",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/log_leaderboard.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_log_leaderboard",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/log_leaderboard.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_log_leaderboard",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/log_leaderboard.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_log_leaderboard",
+      "target": "mlflow",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/log_leaderboard.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_log_leaderboard",
+      "target": "src_trendyol_mlop_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/log_leaderboard.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_log_leaderboard",
+      "target": "src_trendyol_mlop_log_leaderboard_log_leaderboard",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/log_leaderboard.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_log_leaderboard",
+      "target": "src_trendyol_mlop_log_leaderboard_parse_args",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/log_leaderboard.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_log_leaderboard_parse_args",
+      "target": "src_trendyol_mlop_log_leaderboard_py_namespace",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/log_leaderboard.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "collections",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "sklearn_feature_extraction_text",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "tqdm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "src_trendyol_mlop_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "src_trendyol_mlop_features",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "src_trendyol_mlop_make_dataset_sample_not_positive",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_sample_not_positive",
+      "target": "src_trendyol_mlop_make_dataset_py_ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "src_trendyol_mlop_make_dataset_append_negative",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_append_negative",
+      "target": "defaultdict",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "src_trendyol_mlop_make_dataset_build_tfidf_candidates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_build_tfidf_candidates",
+      "target": "src_trendyol_mlop_make_dataset_py_dataframe",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_build_tfidf_candidates",
+      "target": "src_trendyol_mlop_make_dataset_py_dataframe",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_build_tfidf_candidates",
+      "target": "src_trendyol_mlop_make_dataset_py_dataframe",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "src_trendyol_mlop_make_dataset_make_dataset",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "src_trendyol_mlop_make_dataset_parse_args",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L252",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_parse_args",
+      "target": "src_trendyol_mlop_make_dataset_py_namespace",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L252",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_make_dataset",
+      "target": "defaultdict",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_make_dataset",
+      "target": "src_trendyol_mlop_make_dataset_build_tfidf_candidates",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_make_dataset",
+      "target": "src_trendyol_mlop_make_dataset_sample_not_positive",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_make_dataset",
+      "target": "src_trendyol_mlop_make_dataset_append_negative",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_make_dataset",
+      "target": "src_trendyol_mlop_make_dataset_py_dataframe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L244",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "joblib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "tqdm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "src_trendyol_mlop_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "src_trendyol_mlop_features",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "src_trendyol_mlop_validate_submission",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "src_trendyol_mlop_predict_predict",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "src_trendyol_mlop_predict_parse_args",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict_parse_args",
+      "target": "src_trendyol_mlop_predict_py_namespace",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog",
+      "target": "tqdm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog",
+      "target": "src_trendyol_mlop_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog",
+      "target": "src_trendyol_mlop_prepare_catalog_prepare_catalog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog",
+      "target": "src_trendyol_mlop_prepare_catalog_parse_args",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog_parse_args",
+      "target": "src_trendyol_mlop_prepare_catalog_py_namespace",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "joblib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "sklearn_ensemble",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "sklearn_metrics",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "sklearn_model_selection",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "src_trendyol_mlop_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "src_trendyol_mlop_features",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "src_trendyol_mlop_train_make_model",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "src_trendyol_mlop_train_best_threshold",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_best_threshold",
+      "target": "src_trendyol_mlop_train_py_ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_best_threshold",
+      "target": "src_trendyol_mlop_train_py_ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "src_trendyol_mlop_train_log_mlflow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "src_trendyol_mlop_train_split_indices",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_split_indices",
+      "target": "src_trendyol_mlop_train_py_ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_split_indices",
+      "target": "src_trendyol_mlop_train_py_ndarray",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_split_indices",
+      "target": "src_trendyol_mlop_train_py_ndarray",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "src_trendyol_mlop_train_evaluate_split",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_evaluate_split",
+      "target": "src_trendyol_mlop_train_py_ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "src_trendyol_mlop_train_write_feature_importance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "src_trendyol_mlop_train_train",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "src_trendyol_mlop_train_parse_args",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L207",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_parse_args",
+      "target": "src_trendyol_mlop_train_py_namespace",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L207",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_evaluate_split",
+      "target": "src_trendyol_mlop_train_split_indices",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_evaluate_split",
+      "target": "src_trendyol_mlop_train_make_model",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_evaluate_split",
+      "target": "src_trendyol_mlop_train_best_threshold",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_train",
+      "target": "src_trendyol_mlop_train_evaluate_split",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_train",
+      "target": "src_trendyol_mlop_train_make_model",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_train",
+      "target": "src_trendyol_mlop_train_split_indices",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_train",
+      "target": "src_trendyol_mlop_train_write_feature_importance",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_train",
+      "target": "src_trendyol_mlop_train_log_mlflow",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L204",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "mlflow",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "optuna",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "lightgbm",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "sklearn_metrics",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "src_trendyol_mlop_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "src_trendyol_mlop_features",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "src_trendyol_mlop_train",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "src_trendyol_mlop_tune_lgbm_tune",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "src_trendyol_mlop_tune_lgbm_parse_args",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm_parse_args",
+      "target": "src_trendyol_mlop_tune_lgbm_py_namespace",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_dataset",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_dataset.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_dataset",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_dataset.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_dataset",
+      "target": "src_trendyol_mlop_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_dataset.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_dataset",
+      "target": "src_trendyol_mlop_validate_dataset_validate_dataset",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_dataset.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_dataset",
+      "target": "src_trendyol_mlop_validate_dataset_parse_args",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_dataset.py",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_dataset_parse_args",
+      "target": "src_trendyol_mlop_validate_dataset_py_namespace",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_dataset.py",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_submission",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_submission.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_submission",
+      "target": "pandas",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_submission.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_submission",
+      "target": "src_trendyol_mlop_common",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_submission.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_submission",
+      "target": "src_trendyol_mlop_validate_submission_validate_submission",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_submission.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_submission",
+      "target": "src_trendyol_mlop_validate_submission_parse_args",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_submission.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_submission_parse_args",
+      "target": "src_trendyol_mlop_validate_submission_py_namespace",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_submission.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_build_features",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_build_features",
+      "target": "src_trendyol_mlop_common_read_table",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_build_features",
+      "target": "src_trendyol_mlop_common_write_table",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_build_features",
+      "target": "src_trendyol_mlop_features_build_features",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features",
+      "target": "src_trendyol_mlop_common_normalize_text",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats",
+      "target": "src_trendyol_mlop_common_ensure_parent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats",
+      "target": "src_trendyol_mlop_common_read_table",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats",
+      "target": "src_trendyol_mlop_features_tokens",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_log_leaderboard",
+      "target": "src_trendyol_mlop_common_ensure_parent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/log_leaderboard.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_log_leaderboard",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/log_leaderboard.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "src_trendyol_mlop_common_read_table",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "src_trendyol_mlop_common_write_table",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "src_trendyol_mlop_features_color_set",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "src_trendyol_mlop_features_material_set",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "src_trendyol_mlop_features_query_gender",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "src_trendyol_mlop_features_size_set",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset",
+      "target": "src_trendyol_mlop_features_token_set",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "src_trendyol_mlop_common_ensure_parent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "src_trendyol_mlop_common_read_table",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "src_trendyol_mlop_common_write_json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "src_trendyol_mlop_features_build_features",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict",
+      "target": "src_trendyol_mlop_validate_submission_validate_submission",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog",
+      "target": "src_trendyol_mlop_common_leaf_category",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog",
+      "target": "src_trendyol_mlop_common_top_category",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog",
+      "target": "src_trendyol_mlop_common_write_table",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "src_trendyol_mlop_common_ensure_parent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "src_trendyol_mlop_common_read_table",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train",
+      "target": "src_trendyol_mlop_common_write_json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "src_trendyol_mlop_common_read_table",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "src_trendyol_mlop_common_write_json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "src_trendyol_mlop_train_best_threshold",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm",
+      "target": "src_trendyol_mlop_train_split_indices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_dataset",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_dataset.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_dataset",
+      "target": "src_trendyol_mlop_common_read_table",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_dataset.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_dataset",
+      "target": "src_trendyol_mlop_common_write_json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_dataset.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_submission",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_submission.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_submission",
+      "target": "src_trendyol_mlop_common_write_json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_submission.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_build_features_run",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_build_features_run",
+      "target": "src_trendyol_mlop_common_read_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_build_features_run",
+      "target": "src_trendyol_mlop_features_build_features",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_build_features_run",
+      "target": "src_trendyol_mlop_common_write_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/build_features.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_tokens",
+      "target": "src_trendyol_mlop_common_normalize_text",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_char_ngrams",
+      "target": "src_trendyol_mlop_common_normalize_text",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_size_set",
+      "target": "src_trendyol_mlop_common_normalize_text",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_category_parts",
+      "target": "src_trendyol_mlop_common_normalize_text",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_features_build_features",
+      "target": "src_trendyol_mlop_common_normalize_text",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/features.py",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats_fit_text_stats",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats_fit_text_stats",
+      "target": "src_trendyol_mlop_common_read_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats_fit_text_stats",
+      "target": "src_trendyol_mlop_features_tokens",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_fit_text_stats_fit_text_stats",
+      "target": "src_trendyol_mlop_common_ensure_parent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/fit_text_stats.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_log_leaderboard_log_leaderboard",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/log_leaderboard.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_log_leaderboard_log_leaderboard",
+      "target": "src_trendyol_mlop_common_ensure_parent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/log_leaderboard.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_make_dataset",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_make_dataset",
+      "target": "src_trendyol_mlop_common_read_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_make_dataset",
+      "target": "src_trendyol_mlop_features_query_gender",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_make_dataset",
+      "target": "src_trendyol_mlop_features_color_set",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L211",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_make_dataset",
+      "target": "src_trendyol_mlop_features_material_set",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L214",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_make_dataset",
+      "target": "src_trendyol_mlop_features_size_set",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L217",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_make_dataset",
+      "target": "src_trendyol_mlop_features_token_set",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L220",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_make_dataset_make_dataset",
+      "target": "src_trendyol_mlop_common_write_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/make_dataset.py",
+      "source_location": "L249",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict_predict",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict_predict",
+      "target": "src_trendyol_mlop_common_read_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict_predict",
+      "target": "src_trendyol_mlop_common_ensure_parent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict_predict",
+      "target": "src_trendyol_mlop_features_build_features",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict_predict",
+      "target": "src_trendyol_mlop_common_write_json",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_predict_predict",
+      "target": "src_trendyol_mlop_validate_submission_validate_submission",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/predict.py",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog_prepare_catalog",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog_prepare_catalog",
+      "target": "src_trendyol_mlop_common_write_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_write_feature_importance",
+      "target": "src_trendyol_mlop_common_ensure_parent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_train",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_train",
+      "target": "src_trendyol_mlop_common_read_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_train",
+      "target": "src_trendyol_mlop_common_ensure_parent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L200",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_train_train",
+      "target": "src_trendyol_mlop_common_write_json",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/train.py",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm_tune",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm_tune",
+      "target": "src_trendyol_mlop_common_read_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm_tune",
+      "target": "src_trendyol_mlop_train_split_indices",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm_tune",
+      "target": "src_trendyol_mlop_train_best_threshold",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_tune_lgbm_tune",
+      "target": "src_trendyol_mlop_common_write_json",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/tune_lgbm.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_dataset_validate_dataset",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_dataset.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_dataset_validate_dataset",
+      "target": "src_trendyol_mlop_common_read_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_dataset.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_dataset_validate_dataset",
+      "target": "src_trendyol_mlop_common_write_json",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_dataset.py",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_submission_validate_submission",
+      "target": "src_trendyol_mlop_common_read_params",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_submission.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_validate_submission_validate_submission",
+      "target": "src_trendyol_mlop_common_write_json",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/trendyol_mlop/validate_submission.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog_prepare_catalog",
+      "target": "path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog_prepare_catalog",
+      "target": "src_trendyol_mlop_common_top_category",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "src_trendyol_mlop_prepare_catalog_prepare_catalog",
+      "target": "src_trendyol_mlop_common_leaf_category",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/trendyol_mlop/prepare_catalog.py",
+      "source_location": "L41",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

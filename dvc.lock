@@ -1,0 +1,155 @@
+schema: '2.0'
+stages:
+  prepare_catalog:
+    cmd: python -m src.trendyol_mlop.prepare_catalog --params params.yaml
+    deps:
+    - path: data/items.csv
+      hash: md5
+      md5: 993353f0084ebe3d8c8982d8ef4a97c8
+      size: 402056631
+    - path: data/terms.csv
+      hash: md5
+      md5: 59e61d5e60e9d8796a9b18361635d17d
+      size: 1625432
+    - path: src/trendyol_mlop/common.py
+      hash: md5
+      md5: 9f38359a46fb9d1e38e1821f2e5f0762
+      size: 1433
+    - path: src/trendyol_mlop/prepare_catalog.py
+      hash: md5
+      md5: d738f3932abc586e009d2e05e35ce0f5
+      size: 2699
+    params:
+      params.yaml:
+        data:
+          raw_dir: data
+          interim_dir: data/interim
+          processed_dir: data/processed
+          catalog_path: data/interim/items_min.parquet
+          terms_path: data/interim/terms.parquet
+          train_pairs_path: data/training_pairs.csv
+          submission_pairs_path: data/submission_pairs.csv
+          sample_submission_path: data/sample_submission.csv
+    outs:
+    - path: data/interim/items_min.parquet
+      hash: md5
+      md5: 16b68c371a73b7f7df8b6b5b3b1a8aed
+      size: 310110788
+    - path: data/interim/terms.parquet
+      hash: md5
+      md5: c3b2c152b516ed49f96bc72c5910aaa3
+      size: 1328585
+  make_dataset:
+    cmd: python -m src.trendyol_mlop.make_dataset --params params.yaml
+    deps:
+    - path: data/interim/items_min.parquet
+      hash: md5
+      md5: 16b68c371a73b7f7df8b6b5b3b1a8aed
+      size: 310110788
+    - path: data/interim/terms.parquet
+      hash: md5
+      md5: c3b2c152b516ed49f96bc72c5910aaa3
+      size: 1328585
+    - path: data/training_pairs.csv
+      hash: md5
+      md5: f2b007e633c7c4ddf32c6d45da624df7
+      size: 12250025
+    - path: src/trendyol_mlop/common.py
+      hash: md5
+      md5: 9f38359a46fb9d1e38e1821f2e5f0762
+      size: 1433
+    - path: src/trendyol_mlop/make_dataset.py
+      hash: md5
+      md5: 8a14a86d7cac75f6b63b6c559801ec99
+      size: 11712
+    params:
+      params.yaml:
+        dataset:
+          max_positives:
+          max_items_sample: 200000
+          random_negatives_per_positive: 2
+          same_top_negatives_per_positive: 2
+          same_leaf_negatives_per_positive: 1
+          contradiction_negatives_per_positive: 1
+          tfidf_negatives_per_positive: 2
+          tfidf_top_k: 30
+          tfidf_max_features: 200000
+          tfidf_batch_size: 512
+          output_path: data/processed/train_pairs_synth.parquet
+          report_path: reports/dataset_report.json
+          min_positive_rows: 100
+          min_negative_per_positive: 3.0
+        seed: 42
+    outs:
+    - path: data/processed/train_pairs_synth.parquet
+      hash: md5
+      md5: 980c41ac375749375239e01b1c7c4997
+      size: 605821175
+  validate_dataset:
+    cmd: python -m src.trendyol_mlop.validate_dataset --params params.yaml
+    deps:
+    - path: data/processed/train_pairs_synth.parquet
+      hash: md5
+      md5: 980c41ac375749375239e01b1c7c4997
+      size: 605821175
+    - path: src/trendyol_mlop/common.py
+      hash: md5
+      md5: 9f38359a46fb9d1e38e1821f2e5f0762
+      size: 1433
+    - path: src/trendyol_mlop/validate_dataset.py
+      hash: md5
+      md5: 352480c7c49ba491a647ed4c73ad2987
+      size: 3638
+    params:
+      params.yaml:
+        dataset:
+          max_positives:
+          max_items_sample: 200000
+          random_negatives_per_positive: 2
+          same_top_negatives_per_positive: 2
+          same_leaf_negatives_per_positive: 1
+          contradiction_negatives_per_positive: 1
+          tfidf_negatives_per_positive: 2
+          tfidf_top_k: 30
+          tfidf_max_features: 200000
+          tfidf_batch_size: 512
+          output_path: data/processed/train_pairs_synth.parquet
+          report_path: reports/dataset_report.json
+          min_positive_rows: 100
+          min_negative_per_positive: 3.0
+    outs:
+    - path: reports/dataset_report.json
+      hash: md5
+      md5: edbeb72400e2d412e4e2aeefbf281143
+      size: 640
+  fit_text_stats:
+    cmd: python -m src.trendyol_mlop.fit_text_stats --params params.yaml
+    deps:
+    - path: data/interim/items_min.parquet
+      hash: md5
+      md5: 16b68c371a73b7f7df8b6b5b3b1a8aed
+      size: 310110788
+    - path: src/trendyol_mlop/common.py
+      hash: md5
+      md5: 9f38359a46fb9d1e38e1821f2e5f0762
+      size: 1433
+    - path: src/trendyol_mlop/features.py
+      hash: md5
+      md5: 99120535578e1c478be9a3b89734570c
+      size: 11124
+    - path: src/trendyol_mlop/fit_text_stats.py
+      hash: md5
+      md5: 8f5faee3ba4a5fe153bfd7dd07483ab1
+      size: 1637
+    params:
+      params.yaml:
+        features:
+          train_output_path: data/processed/train_features.parquet
+          text_stats_path: data/interim/text_stats.joblib
+          max_vocab: 300000
+          min_df: 2
+    outs:
+    - path: data/interim/text_stats.joblib
+      hash: md5
+      md5: 63a7cc0c5302cca6c8a6071fb9d4fec5
+      size: 5513132
